@@ -1,7 +1,17 @@
 #include <iostream>
- 
 using namespace std;
+ 
 int main() {
-  cout <<"Hello World!" << endl;    //Print hello world to screen followed by end line (endl)
-  return 0;    //Exit the program
+  cout << "hello world" << endl;
+  int i=2;
+  cout << "i = " <<i<<endl;
+    
+  double a=3.3;
+  cout << "a = " <<a<<endl;
+ 
+  int j = a*i;
+ 
+  cout << "a*i = "<<j<<endl;
+ 
+  return 0;
 }
